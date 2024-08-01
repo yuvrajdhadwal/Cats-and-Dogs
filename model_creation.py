@@ -3,6 +3,7 @@ import tensorflow as tf
 import numpy as np
 from keras.preprocessing.image import ImageDataGenerator
 
+# Fixes an issue where there are multiple OpenMps
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'TRUE'
 
 # Data Preprocessing - Image Augmentation to Prevent Overfitting
